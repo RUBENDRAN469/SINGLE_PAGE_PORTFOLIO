@@ -1,0 +1,211 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #071925;
+    color: white;
+}
+
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 27px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+    color: #00b7f0;
+}
+
+
+.hero {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 120px 10% 40px;
+
+    background: linear-gradient(to right, #071925, transparent),
+                url("profile.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 55%;
+    max-width: 720px;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.content h2 {
+    font-size: 36px;
+    color: #00b7f0;
+    margin-bottom: 25px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.55;
+    margin-bottom: 30px;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #00b7f0;
+    color: #071925;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #00b7f0;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #009acb;
+    border-color: #009acb;
+}
+
+.btn.outline {
+    background-color: transparent;
+    color: #00b7f0;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 22px;
+    margin-top: 80px;
+}
+
+.social-links a {
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #00b7f0;
+    border-radius: 50%;
+    color: #00b7f0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    background-color: #00b7f0;
+    color: #071925;
+}
+
+
+
+
+nav {
+    width: 80%;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+nav a {
+    font-size: 17px;
+}
+
+
+.hero {
+    min-height: 100vh;
+    padding: 120px 10% 40px;
+    background-position: center;
+}
+
+
+.content {
+    width: 55%;
+}
+
+.content h1 {
+    font-size: 42px;
+}
+
+.content h2 {
+    font-size: 32px;
+}
+
+.content p {
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 25px;
+}
+
+.btn {
+    padding: 12px 35px;
+    font-size: 18px;
+}
+
+
+.social-links {
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
